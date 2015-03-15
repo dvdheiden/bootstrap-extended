@@ -1,0 +1,89 @@
+/* ==========================================================================
+   CORE
+   ========================================================================== */
+.square {
+            border-radius: 0 !important;
+       -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+}
+
+/* ==========================================================================
+   ALERTS
+   ========================================================================== */
+.alert-lg {
+    padding: 24px;
+    font-size: 18px;
+            border-radius: 6px;
+       -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.alert-md {
+    padding: 15px;
+    font-size: 14px;
+            border-radius: 4px;
+       -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.alert-sm {
+    padding: 9px;
+    font-size: 13px;
+            border-radius: 3px;
+       -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.alert-xs {
+    padding: 4px;
+    font-size: 12px;
+            border-radius: 2px;
+       -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/* ==========================================================================
+   BADGES
+   ========================================================================== */ 
+.badge-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+.badge-success.badge-bordered {
+    border: 1px solid #d6e9c6;
+}
+
+.badge-info {
+    color: #31708f;
+    background-color: #d9edf7;
+}
+.badge-info.badge-bordered {
+    border: 1px solid #bce8f1;
+}
+
+.badge-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+}
+.badge-warning.badge-bordered {
+    border: 1px solid #faebcc;
+}
+
+.badge-danger {
+    color: #a94442;
+    background-color: #f2dede;
+}
+.badge-danger.badge-bordered {
+    border: 1px solid #ebccd1;
+}
+
+/* ==========================================================================
+   PAGINATION
+   ========================================================================== */
+.pagination-centered {
+    text-align: center;
+}
+
+/* ==========================================================================
+   TABLE
+   ========================================================================== */
+.table-light thead > tr > th {
+    border-bottom: none;
+}
